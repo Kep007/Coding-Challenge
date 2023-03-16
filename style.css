@@ -1,0 +1,103 @@
+/* 
+ * Dev. by Vadym Shevchenko
+ *       - Boolean -
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** CONTAINER **/
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 100px 100px 100px 100px;
+}
+
+/** HEADER **/
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    height: 120px;
+    width: auto;
+}
+
+header h1 {
+    color: #00DD00;
+    font-weight: 500;
+}
+
+header .menu {
+    background-color: #00DD00;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+/** SECTION **/
+
+section {
+    margin-bottom: 30px;
+    color: white;
+    width: 100%;
+}
+
+section .title input[type="checkbox"] {
+    margin: 0px 2px 0px 3px;
+}
+
+section .title h1 {
+    display: inline-block;
+    font-weight: 500;
+}
+
+section p {
+    font-weight: 300;
+    margin: 5px 0px 5px 0px;
+}
+
+section h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/** LOAD **/
+
+.load {
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.orange {
+    width: 35%;
+    background-color: orange;
+}
+.green {
+    width: 65%;
+    background-color: #00DD00;
+}
+.red {
+    width: 15%;
+    background-color: red;
+}
